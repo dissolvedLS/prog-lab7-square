@@ -22,6 +22,7 @@ namespace prog_lab7_zad2
                 }
             }
             Square newSquare = new Square(side);
+
             Console.WriteLine("Квадрат создан!");
             Console.WriteLine("Его периметр: " + newSquare.Perimeter());
             Console.WriteLine("Площадь: " + newSquare.Area());
